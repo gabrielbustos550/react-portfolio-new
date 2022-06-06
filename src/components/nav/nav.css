@@ -1,0 +1,38 @@
+nav {
+    background: transparent;
+    border: 1px solid #A53708;
+    width: max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 2rem;
+    display: flex;
+    gap: 0.8rem;
+    border-radius: 1.5rem;
+    backdrop-filter: blur(15px);
+}
+
+nav a {
+    background: transparent;
+    padding: 0.9rem;
+    border-radius: 50%;
+    display: flex;
+    font-size: 1.4rem;
+}
+
+nav a:hover {
+    background: #A53708;
+    color: #F8F0E3;
+    opacity: 1;
+
+}
+
+nav a.active {
+    background: transparent;
+    border: 1px solid #A53708;
+    color: #A53708;
+}
+
