@@ -21,7 +21,7 @@ const Experience = () => {
           </div>
           <div className="employer__info">
             <div className={activeButton === 'tab-0' ? 'employer active' : 'employer'}>
-              <h3>Web Developer <a href="https://veatechnologies.com" target="_blank"> @ VEA Technologies</a></h3>
+              <h3>Web Developer <a href="https://veatechnologies.com" target="_blank">@ VEA Technologies</a></h3>
               <p>April 2022 - Present</p>
               <li>
                 <ul>Communicate with the marketing deparment in order to create viable and responsive sites and web pages. Adapting completed projects in order to meet customers vision.</ul>
@@ -30,7 +30,7 @@ const Experience = () => {
               </li>
             </div>
             <div className={activeButton === 'tab-1' ? 'employer active' : 'employer'}>
-              <h3>Student @ General Assembly</h3>
+              <h3>Student <a href="https://generalassemb.ly/?&topic=&mkt_account_id=1056949875&mkt_campaign_id=691438522&mkt_ad_group_id=34569630646&mkt_device_type=c&mkt_keyword=general%20assembly&mkt_matchtype=e&mkt_placement=&mkt_ad_id=155683414932&mkt_network=g&mkt_target_id=kwd-459322816&mkt_feed_item_id=&utm_source=google&utm_medium=paid-search-bra&utm_campaign=TS:TX:BRA:DEN:BR:GeneralAssembly&utm_content=campus-lead-lander&utm_term=general%20assembly&gclid=CjwKCAjw7vuUBhBUEiwAEdu2pAqDQ_jNNWbh94KOnE-pDmh3LaHpNF4M4k6ak4IuVpb1TQhKOyI-kRoCZ74QAvD_BwE" target="_blank">@ General Assembly</a></h3>
               <p>January 2021 - April 2021</p>
               <li>
                 <ul>Completed a rigorous 12 week full stack coding bootcamp consisting of learning JavaScript, Python, HTML, and CSS to name a few.</ul>
@@ -39,7 +39,7 @@ const Experience = () => {
               </li>
             </div>
             <div className={activeButton === 'tab-2' ? 'employer active' : 'employer'}>
-              <h3>Sales Representative @ SelectQuote</h3>
+              <h3>Sales Representative <a href="https://www.selectquote.com" target="_blank">@ SelectQuote</a></h3>
               <p>August 2019 - January 2021</p>
               <li>
                 <ul>Combined company CRM with government websites
@@ -49,7 +49,7 @@ const Experience = () => {
               </li>
             </div>
             <div className={activeButton === 'tab-3' ? 'employer active' : 'employer'}>
-              <h3>Sales Representative @ Autonation Subaru West</h3>
+              <h3>Sales Representative <a href="https://www.autonationsubaruwest.com/" target="_blank">@ Autonation Subaru West</a></h3>
               <p>August 2018 - July 2019</p>
               <li>
                 <ul>Utilizing product knowledge and market
@@ -60,7 +60,7 @@ const Experience = () => {
               </li>
             </div>
             <div className={activeButton === 'tab-4' ? 'employer active' : 'employer'}>
-              <h3>Sales Manager @ Mike Shaw Subaru</h3>
+              <h3>Sales Manager <a href="https://www.mikeshawsubaru.com/" target="_blank">@ Mike Shaw Subaru</a></h3>
               <p>February 2014 - July 2018 </p>
               <li>
                 <ul>Managed and led a team of 25+ sales representatives to meet

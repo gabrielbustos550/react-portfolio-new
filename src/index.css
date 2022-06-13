@@ -123,16 +123,12 @@ img {
     .container {
         width: 86%;
     }
-    section{
-        margin-top: 6rem;
-    }
+    
 }
 /* ======= MEDIA QUERIES (SMALL DEVICES ======== */
 @media screen and (max-width: 600px) {
     .container {
         width: 90%;
     }
-    section > h2{
-        margin-bottom: 2rem;
-    }
+    
 }

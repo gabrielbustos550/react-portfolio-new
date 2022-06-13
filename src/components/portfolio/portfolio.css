@@ -74,5 +74,53 @@
 
 
 
+@media screen and (max-width: 600px) {
 
+    .portfolio__container {
+        padding-top: 0rem;
+    }
+    .portfolio__container > h2 {
+        font-size: .8rem;
+    }
+    .portfolio__container > h2::after {
+        height: 1px;
+    }
+   
+    .project {
+        width: 100%;
+        border: 1px solid #A53708;
+        flex-direction: column;
+        height: 10rem;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: .5rem;
+    }
+    .project__media {
+        width: 100%;
+        display: none;   
+    }
+    .project__description {
+        width: 100%;
+    }
+    .project__description > p {
+        font-size: .8rem;
+    }
+    .project__description > h3 {
+        font-size: .8rem;
+    }
+    .link__container > a {
+        font-size: .8rem;
+        
+    }
+    .project:hover {
+        transition: var(--transition);
+        height: 10rem;
+        padding: .8rem;
+        -webkit-transform: scale(1);
+        border: 1px solid #A53708;
+        box-shadow: 0px 0px 0px black;
+    }
+    
+
+}
 

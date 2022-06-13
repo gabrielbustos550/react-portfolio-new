@@ -15,7 +15,6 @@ header {
 #header__statement {
     color: #044E1B;
     opacity: .8;
-
 }
 
 .header__description {
@@ -85,6 +84,48 @@ header {
 }
 
 
-@media screen max-wiwdht {
-    
+@media screen and (max-width: 1024px) {
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .header__container {
+        text-align: left;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 0rem;
+        padding-bottom: 0rem;
+    }
+    .header__description {
+        font-size: 1.2rem;
+    }
+    .scroll__down__container {
+        display: none;
+    }
+    .header__socials {
+        display: none;
+    }
+}
+/* ======= MEDIA QUERIES (SMALL DEVICES ======== */
+@media screen and (max-width: 600px) {
+   #intro {
+       font-size: 1.2rem;
+   }
+   .header__container > h1 {
+       font-size: 1.8rem;
+   }
+   #header__statement {
+       font-size: 1.8rem;
+   }
+   .header__container > P {
+       font-size: 1rem;
+   }
+   .cta {
+       font-size: .8rem;
+   }
 }

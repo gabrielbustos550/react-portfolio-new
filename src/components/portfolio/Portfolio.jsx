@@ -24,8 +24,8 @@ const Portfolio = () => {
   application allows users to create and store
   information they will use while traveling</p>
               <div className="link__container">
-                <a href=""><FiGithub/></a>
-                <a href=""><GoLinkExternal/></a>
+                <a href="https://github.com/wonkatin/Project3_Server" target="_blank"><FiGithub/></a>
+                <a href="https://trip-tracker-whatever.netlify.app/" target="_blank"><GoLinkExternal/></a>
               </div>
             </div>
           </div>
@@ -36,8 +36,8 @@ const Portfolio = () => {
               <h3>NBA TeamChat</h3>
               <p>Full Stack Web application. Users can create an account to log in and view their favorite team's season results. Leverages BallDontLie api to pull game scores.</p>
               <div className="link__container">
-                <a href=""><FiGithub/></a>
-                <a href=""><GoLinkExternal/></a>
+                <a href="https://github.com/gabrielbustos550/NBATeamChat" target="_blank"><FiGithub/></a>
+                <a href="https://nba-teamchat-poject.herokuapp.com/" target="_blank"><GoLinkExternal/></a>
               </div>
             </div>
             <div className="project__media">
@@ -54,8 +54,8 @@ const Portfolio = () => {
               <h3>SpeedRacer 1000</h3>
               <p>Created this web game using the Canvas.js software. Finish the course in the fastest time to be the 1st place finisher while avoiding hit boxes and out of bounds.</p>
               <div className="link__container">
-                <a href=""><FiGithub/></a>
-                <a href=""><GoLinkExternal/></a>
+                <a href="https://github.com/gabrielbustos550/SpeedRacer-1000" target="_blank"><FiGithub/></a>
+                <a href="https://gabrielbustos550.github.io/" target="_blank"><GoLinkExternal/></a>
               </div>
             </div>
           </div>
